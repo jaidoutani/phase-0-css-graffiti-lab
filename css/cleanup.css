@@ -4,13 +4,25 @@
   }
 
 #wall #tag-2 {
-    display: none;
+    visibility: hidden;
 }
 
 div#wall #tag-3.slick {
-    display: none;
+    visibility: hidden;
 }
 
-#wall * {
-    display: none;
-}  
+#wall #tag-4 {
+    visibility: hidden;
+}
+
+div#wall .parent #tag-5.slick {
+    visibility: hidden;
+}
+
+div#wall div.parent div:last-child div#tag-6 {
+    visibility: hidden;
+}
+
+body div#wall div.parent div > #tag-7.slick {
+    visibility: hidden;
+}
